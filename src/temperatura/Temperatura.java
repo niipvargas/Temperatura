@@ -16,11 +16,9 @@ public class Temperatura {
             Fahrenheit =  Celsius * 1.8 + 32;
 
         double Kelvin = Celsius + 273.15;
-
-	System.out.print("\n A medida convertida em é Fahrenheit " + Fahrenheit + "ºF\n");
-	System.out.print("\n A medida convertida em Kelvin " + Kelvin + "ºK\n");
+        System.out.println("-----------------------------------------------------------");
+	System.out.println("A medida convertida em é Fahrenheit " + Fahrenheit + "ºF");
+	System.out.println("A medida convertida em Kelvin " + Kelvin + "ºK");
+	    
 	}
-
 }
-    
-
